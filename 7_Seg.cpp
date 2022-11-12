@@ -171,9 +171,9 @@ void setup()
   pinMode(11, INPUT_PULLUP);
   pinMode(12, INPUT_PULLUP);
   pinMode(13, INPUT_PULLUP);
-  DDRB |= B00111111;
+  DDRB  |= B00111111;
   PORTB |= B00111111;
-  DDRC |= B110000;
+  DDRC  |= B110000;
   PORTC |= B110000;
 
   DDRD = B11111111; //büTÜN D PORTI ÇIKIŞ
